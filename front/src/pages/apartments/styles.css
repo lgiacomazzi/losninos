@@ -1,0 +1,92 @@
+.main-page,
+.apartment-page {
+  /* margin-left: 15em;
+  margin-top: 2em; */
+  padding-top: 2rem;
+}
+
+.apartment-page > h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.main-page > h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  transition: 400ms;
+  box-shadow: 3px 3px 20px -10px #00000030;
+  color: #333;
+}
+
+.ap-card {
+  border-right: 0.5rem solid rgba(0, 0, 0, 0.125);
+}
+
+.plus-card {
+  box-shadow: none;
+  border: 0.15rem solid;
+  border-style: dashed;
+  color: rgba(0, 0, 0, 0.125);
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-card:hover {
+  border-right: none !important;
+  border: 0.15rem solid !important;
+  border-style: dashed !important;
+}
+
+.card[disabled] {
+  opacity: 0.3;
+}
+
+.card[disabled]:hover {
+  border-right: 0.5rem solid #ff5722 !important;
+}
+
+.card-title {
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title > h5 {
+  margin: 0;
+}
+
+.ap-card:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: scale3d(1.05, 1.05, 1);
+  border-right: 0.5rem solid #4caf50;
+}
+
+.card:hover > .card-body > .card-title > .fa-lock {
+  color: orange;
+}
+
+.card:hover > .card-body > .card-title > .fa-key {
+  color: #4caf50;
+}
+
+.card:hover > .card-body > .card-title > .fa-times-circle {
+  color: #ff5722;
+}
+
+.rented {
+  background-color: #00000030;
+}
+
+.rented:hover {
+  border-right: 0.5rem solid orange;
+}

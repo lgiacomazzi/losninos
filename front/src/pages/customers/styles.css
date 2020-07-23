@@ -1,0 +1,20 @@
+.alert {
+  position: absolute;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.modal-content {
+  border: none;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem;
+}

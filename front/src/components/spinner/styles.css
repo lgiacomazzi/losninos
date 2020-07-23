@@ -1,0 +1,11 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem;
+}
+
+.spinner {
+  filter: invert(1);
+}

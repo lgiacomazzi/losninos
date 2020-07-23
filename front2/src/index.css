@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gilroy-ExtraBold";
+}
+
+p {
+  margin: 0 !important;
+  font-family: "Andale Mono";
+}
+
+a {
+  cursor: pointer;
+}
+
+a.card,
+a.card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+small {
+  letter-spacing: -1px;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+.btn {
+  font-family: "Andale Mono";
+  padding: 0.5em 1.2em;
+  transition: 300ms;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #000;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  filter: opacity(0.9);
+}
+.btn-new {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  transition: 400ms;
+}
+
+.btn-new:hover {
+  filter: opacity(0.8);
+}
+
+.click-card {
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.click-card:hover {
+  transform: translateY(-3px);
+}

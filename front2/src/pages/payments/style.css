@@ -1,0 +1,31 @@
+hr {
+  border-color: #dfdfdf;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem 1rem;
+  vertical-align: middle;
+  font-family: "Andale Mono";
+  font-size: 14px;
+}
+
+.table td:first-child {
+  width: 10px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: transparent;
+  box-shadow: 0 0 20px -10px #00000054;
+  cursor: pointer;
+}
+
+.table thead th {
+  font-size: 12px;
+  background-color: #dfdfdf47;
+  border: 0px solid #dee2e6;
+}
+
+table#payments {
+  min-height: 500px;
+}

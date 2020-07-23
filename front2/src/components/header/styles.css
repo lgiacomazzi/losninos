@@ -1,0 +1,37 @@
+.invert {
+  filter: invert(1);
+}
+
+.navbar {
+  padding: 0 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.nav-icon {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  transition: 200ms;
+}
+
+.nav-icon > span {
+  text-decoration: none;
+  color: #ffffff90;
+  font-size: 18px;
+  transition: 200ms;
+}
+
+a:hover,
+.nav-icon:hover > span,
+.nav-icon.active > span {
+  text-decoration: none !important;
+  color: #007bff;
+}

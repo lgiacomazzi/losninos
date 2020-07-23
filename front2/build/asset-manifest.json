@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/losninos/static/css/main.5273f60e.chunk.css",
+    "main.js": "/losninos/static/js/main.d7069946.chunk.js",
+    "main.js.map": "/losninos/static/js/main.d7069946.chunk.js.map",
+    "runtime~main.js": "/losninos/static/js/runtime~main.2111ec14.js",
+    "runtime~main.js.map": "/losninos/static/js/runtime~main.2111ec14.js.map",
+    "static/js/2.278f83f8.chunk.js": "/losninos/static/js/2.278f83f8.chunk.js",
+    "static/js/2.278f83f8.chunk.js.map": "/losninos/static/js/2.278f83f8.chunk.js.map",
+    "index.html": "/losninos/index.html",
+    "precache-manifest.fb843524519036d61354dc1d784b6c93.js": "/losninos/precache-manifest.fb843524519036d61354dc1d784b6c93.js",
+    "service-worker.js": "/losninos/service-worker.js",
+    "static/css/main.5273f60e.chunk.css.map": "/losninos/static/css/main.5273f60e.chunk.css.map",
+    "static/media/styles.css": "/losninos/static/media/banner_2.975f1a07.png",
+    "static/media/logo.png": "/losninos/static/media/logo.62b84e01.png"
+  }
+}

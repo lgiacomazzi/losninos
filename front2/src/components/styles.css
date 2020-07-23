@@ -1,0 +1,13 @@
+.category {
+  height: 24px;
+  width: 24px;
+  background-color: #e2e4e6;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  color: white !important;
+  /* transform: scale(0.7); */
+  font-size: 12px;
+}
